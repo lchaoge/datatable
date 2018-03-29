@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+		<title>表格</title>
+		<link rel="stylesheet" type="text/css" href="css/datatable.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fixCol.css"/>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script src="js/datatable.js"></script>
+		<script src="js/fixCol.js"></script>
+    <style>
+    *{padding: 0;margin: 0;}
+    </style>
+	</head>
+	<body>
+	
+	<table id="example" class="stripe row-border order-column" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th rowspan="2">采销部类</th>
+                        <th colspan="2">销售</th>
+                        <th colspan="3">交易次数</th>
+                    </tr>
+                    <tr>
+                        <th>日销售额</th>
+                        <th>当日可比%</th>
+                        <th>当日环比%</th>
+                        <th>累计可比%</th>
+                        <th>进度达成%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="level2">
+                        <td class="drillable">日配食品</td>
+                        <td class="danger">-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                    <tr>
+                        <td class="drillable">日配食品</td>
+                        <td>-2.36%</td>
+                        <td>-13.78%</td>
+                        <td>-52.24%</td>
+                        <td>-6.63%</td>
+                        <td>-1.74%</td>
+                    </tr>
+                </tbody>
+            </table>
+	
+	<script type="text/javascript">
+   var datatables_options = {
+    "bAutoWidth": true,
+    "sDom": '<"top"i>rt<"bottom"flp><"clear">',           
+    "bPaginate": false,   
+    "sPaginationType": "full_numbers", 
+    "iDisplayLength": 10, 
+    "bSort": true, 
+    "bFilter": false, 
+    "aaSorting": [], 
+    "bInfo": false, 
+    "bStateSave": false, 
+    "iCookieDuration": 0, 
+    "bScrollAutoCss": true, 
+    "bProcessing": true, 
+    "bJQueryUI": false 
+};
+
+datatables_options["sScrollY"] = "573px";
+datatables_options["sScrollX"] = "100%";
+datatables_options["bScrollCollapse"] = true;
+
+// add this
+datatables_options["sScrollXInner"] = '150%';
+//
+                   
+var table = $('#example').DataTable(datatables_options);
+new $.fn.dataTable.FixedColumns(table);
+
+
+        
+        
+</script>
+	</body>
+</html>
